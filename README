@@ -17,3 +17,11 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
 
 - `dataset/derivatives/prf-estimation`  
    This directory contains the pRF estimation data and results for each participant.
+
+- `dataset/derivatives/prf-estimation/files`  
+   This directory contains miscellaneous files used for pRF estimation or visualizations.
+
+   - `angle_lut.json`: Custom polar angle lookup table for visualiation with FreeSurfer's `freeview`.
+   - `eccen_lut.json`: Custom eccentricity lookup table for visualiation with FreeSurfer's `freeview`.
+   - `participants_hrf_paramters.json`: Corresponding metadata for `participants_hrf_paramters.tsv`.
+   - `participants_hrf_paramters.tsv`: Estimated HRF parameters used during pRF estimation by participant and hemisphere. 
