@@ -8,3 +8,12 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
 
 - `dataset`  
    This directory contains the raw, unprocessed data for each participant. 
+
+- `dataset/derivatives/fmriprep`  
+   This directory contains the fMRIPrep processed data for each particpant. 
+
+- `dataset/derivatives/freesurfer`  
+   This directory contains the standard FreeSurfer processed data for each participant. 
+
+- `dataset/derivatives/prf-estimation`  
+   This directory contains the pRF estimation data and results for each participant.
