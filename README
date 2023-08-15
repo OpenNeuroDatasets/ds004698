@@ -3,3 +3,5 @@
 The Center for Human Neuroscience (CHN) Retinotopic Mapping Dataset collected at the University of Washington is part of "Improving the reliability and accuracy of population receptive field measures using a 'log-bar' stimulus." by Kelly Chang, Ione Fine, and Geoffrey M. Boynton.
 
 The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF estimated data from 12 participants across 2 sessions.
+
+## Dataset Organization
