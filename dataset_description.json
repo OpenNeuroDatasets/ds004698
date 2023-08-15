@@ -1,0 +1,13 @@
+{
+  "Acknowledgements": "",
+  "Authors": [ "Kelly Chang", "Ione Fine", "Geoffrey M. Boynton" ],
+  "BIDSVersion": "1.6.0",
+  "DatasetDOI": "",
+  "Funding": [],
+  "HowToAcknowledge": "",
+  "License": "",
+  "Name": "CHN Retinotopic Mapping Dataset",
+  "ReferencesAndLinks": [],
+  "rule_id": "bids_project",
+  "template": "project"
+}
