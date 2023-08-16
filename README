@@ -66,4 +66,4 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
 
    - `create_distorted_images.[m,ipynb]`: Tutorial script that generates log-distorted images when given an image input directory.
    - `fixed-bar`: Sample image input directory.
-   - `log-bar`: Sample imgae output directory.
+   - `log-bar`: Sample image output directory.
