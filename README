@@ -65,6 +65,7 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
    This directory contains tutorial scripts in MATLAB and Python to generate logarithmically distorted images from a directory of input images.
 
    - `create_distorted_images.[m,ipynb]`: Tutorial script that generates logarithmically distorted images when given an image input directory.
-   - `fixed-bar`: Sample image input directory.
-   - `log-bar`: Sample image output directory.
    - `logarithmic_distortion_demo.[m,ipynb]`: Tutorial script that demonstrates the logarithmic distortion warping on a single image.
+   - `fixed-bar`: Sample image input directory for `create_distorted_images.[m,ipynb]`.
+   - `log-bar`: Sample image output directory for `create_distorted_images.[m,ipynb]`.
+
