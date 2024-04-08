@@ -10,7 +10,7 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
    This directory contains the raw, unprocessed data for each participant. 
 
 - `dataset/derivatives/fmriprep`  
-   This directory contains the fMRIPrep processed data for each particpant. 
+   This directory contains the fMRIPrep processed data for each participant. 
 
 - `dataset/derivatives/freesurfer`  
    This directory contains the standard FreeSurfer processed data for each participant. 
@@ -31,7 +31,7 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
 
    - `task-(fixed|log)bar_run-<n>`: Name of the stimulus condition and run number.
    - `*_desc-full_stim.mat`: Stimulus images (uint8) at `full` resolution of 540 by 540 pixels and 6 Hz.
-   - `*_desc-down_aperture.mat`: Stimulus aperature (binary) where 1s indicated stimulus and 0s indicated the background at a downsampled (`down`) resolution of 108 by 108 pixels and 1 Hz.  
+   - `*_desc-down_aperture.mat`: Stimulus aperture (binary) where 1s indicated stimulus and 0s indicated the background at a downsampled (`down`) resolution of 108 by 108 pixels and 1 Hz.  
 
 - `dataset/derivatives/prf-estimation/sub-<n>/anat`  
    This directory contains the participant's surface (inflated and sphere) and curvature files for visualization using FreeSurfer's `freeview`.
@@ -62,8 +62,9 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
   - `*_v<n>.label`: Corresponding visual area ROI files. 
 
 - `dataset/tutorials`  
-   This directory contains tutorial scripts in MATLAB and Python to generate log distorted images from a directory of input images.
+   This directory contains tutorial scripts in MATLAB and Python to generate logarithmically distorted images from a directory of input images.
 
-   - `create_distorted_images.[m,ipynb]`: Tutorial script that generates log-distorted images when given an image input directory.
+   - `create_distorted_images.[m,ipynb]`: Tutorial script that generates logarithmically distorted images when given an image input directory.
    - `fixed-bar`: Sample image input directory.
    - `log-bar`: Sample image output directory.
+   - `logarithmic_distortion_demo.[m,ipynb]`: Tutorial script that demonstrates the logarithmic distortion warping on a single image.
