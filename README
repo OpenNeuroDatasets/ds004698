@@ -10,7 +10,7 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
    This directory contains the raw, unprocessed data for each participant. 
 
 - `dataset/derivatives/fmriprep`  
-   This directory contains the fMRIPrep processed data for each participant. 
+   This directory contains the fMRIPrep processed data for each particpant. 
 
 - `dataset/derivatives/freesurfer`  
    This directory contains the standard FreeSurfer processed data for each participant. 
@@ -29,17 +29,17 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
 - `dataset/derivatives/prf-estimation/stimuli`  
    This directory contains the stimuli used in the experiment and stimulus apertures used in pRF estimation.
 
-   - `task-(fixed|log)bar_run-<n>`: Name of the stimulus condition and run number.
+   - `task-(fixed|log)bar_run-(1|2|3)`: Name of the stimulus condition and run number.
    - `*_desc-full_stim.mat`: Stimulus images (uint8) at `full` resolution of 540 by 540 pixels and 6 Hz.
-   - `*_desc-down_aperture.mat`: Stimulus aperture (binary) where 1s indicated stimulus and 0s indicated the background at a downsampled (`down`) resolution of 108 by 108 pixels and 1 Hz.  
+   - `*_desc-down_aperture.mat`: Stimulus aperature (binary) where 1s indicated stimulus and 0s indicated the background at a downsampled (`down`) resolution of 108 by 108 pixels and 1 Hz.  
 
-- `dataset/derivatives/prf-estimation/sub-<n>/anat`  
+- `dataset/derivatives/prf-estimation/sub-(n)/anat`  
    This directory contains the participant's surface (inflated and sphere) and curvature files for visualization using FreeSurfer's `freeview`.
 
-- `dataset/derivatives/prf-estimation/sub-<n>/func`  
+- `dataset/derivatives/prf-estimation/sub-(n)/func`  
    This directory contains the preprocessed and denoised functional data, sampled onto the participant's surface, used during pRF estimation. 
 
-- `dataset/derivatives/prf-estimation/sub-<n>/prfs`
+- `dataset/derivatives/prf-estimation/sub-(n)/prfs`
    This directory contains the estimated pRF parameter maps separated by which data was used during estimation. 
 
    - `ses-(01|02|all)`: Sessions used during pRF estimation, either Session 1, Session 2, or both. 
@@ -53,19 +53,23 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
    - `*_x0.mgz`: x-coordinate maps, visual degrees, with origin (0,0) at screen center.
    - `*_y0.mgz`: y-coordinate maps, visual degrees, with origin (0,0) at screen center. 
 
-- `dataset/derivatives/prf-estimation/sub-<n>/rois`  
+- `dataset/derivatives/prf-estimation/sub-(n)/rois`  
    This directory contains the roi (.label) files for each 
    participant. 
 
-  - `*_evc.label`: Early visual cortex (EVC). A liberal ROI that covered V1, V2, and V3 used for pRF estimation.
+  - `*_VC.label`: Visual cortex (VC). A liberal ROI that covered visual cortex used for pRF estimation.
   - `*_fovea.label`: Foveal confluence ROI.
-  - `*_v<n>.label`: Corresponding visual area ROI files. 
+  - `*_V1.label`: V1 ROI files. 
+  - `*_V2.label`: V2 ROI files. 
+  - `*_V3.label`: V3 ROI files. 
+  - `*_V3ab.label`: V3a/b ROI files. 
+  - `*_hV4.label`: hV4 ROI files. 
+  - `*_LOC.label`: Lateral-Occipital Complex (LOC) ROI files. 
+  - `*_TOC.label`: Temporal-Occipital Complex (TOC) ROI files. 
 
 - `dataset/tutorials`  
-   This directory contains tutorial scripts in MATLAB and Python to generate logarithmically distorted images from a directory of input images.
+   This directory contains tutorial scripts in MATLAB and Python to generate log distorted images from a directory of input images.
 
-   - `create_distorted_images.[m,ipynb]`: Tutorial script that generates logarithmically distorted images when given an image input directory.
-   - `logarithmic_distortion_demo.[m,ipynb]`: Tutorial script that demonstrates the logarithmic distortion warping on a single image.
-   - `fixed-bar`: Sample image input directory for `create_distorted_images.[m,ipynb]`.
-   - `log-bar`: Sample image output directory for `create_distorted_images.[m,ipynb]`.
-
+   - `create_distorted_images.[m,ipynb]`: Tutorial script that generates log-distorted images when given an image input directory.
+   - `fixed-bar`: Sample image input directory.
+   - `log-bar`: Sample image output directory.
