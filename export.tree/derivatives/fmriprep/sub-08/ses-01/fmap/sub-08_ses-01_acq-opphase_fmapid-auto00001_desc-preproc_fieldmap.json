@@ -1,0 +1,19 @@
+{
+  "AnatomicalReference": "sub-08_ses-01_acq-opphase_fmapid-auto00001_desc-epi_fieldmap.nii.gz",
+  "AssociatedCoefficients": [
+    "sub-08_ses-01_acq-opphase_fmapid-auto00001_desc-coeff_fieldmap.nii.gz"
+  ],
+  "B0FieldIdentifier": "auto_00001",
+  "IntendedFor": [
+    "ses-01/func/sub-08_ses-01_task-fixedbar_run-01_bold.nii.gz",
+    "ses-01/func/sub-08_ses-01_task-fixedbar_run-02_bold.nii.gz",
+    "ses-01/func/sub-08_ses-01_task-fixedbar_run-03_bold.nii.gz",
+    "ses-01/func/sub-08_ses-01_task-logbar_run-01_bold.nii.gz",
+    "ses-01/func/sub-08_ses-01_task-logbar_run-02_bold.nii.gz"
+  ],
+  "RawSources": [
+    "/data/sub-08/ses-01/fmap/sub-08_ses-01_acq-opphase_dir-AP_epi.nii.gz",
+    "/data/sub-08/ses-01/fmap/sub-08_ses-01_acq-opphase_dir-PA_epi.nii.gz"
+  ],
+  "Units": "Hz"
+}
