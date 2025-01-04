@@ -8,7 +8,7 @@
     "BIDSVersion": "1.6.0",
     "DatasetDOI": "doi:10.18112/openneuro.ds004698.v2.0.0",
     "Funding": [],
-    "HowToAcknowledge": "Chang, K., Fine, I., & Boynton, G. M. (2025). CHN Retinotopic Mapping Dataset. OpenNeuro. [Dataset] https://doi.org/10.18112/openneuro.ds004698.v2.0.0",
+    "HowToAcknowledge": "",
     "License": "CC0",
     "Name": "CHN Retinotopic Mapping Dataset",
     "ReferencesAndLinks": [
