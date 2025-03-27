@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/2P/5j/SHA256E-s1545--376528fe10acb2d62761c5919067ecbcd13d15514042f6c9c300c5fc86f8bb6c.auto_noCCseg.label_intensities.txt/SHA256E-s1545--376528fe10acb2d62761c5919067ecbcd13d15514042f6c9c300c5fc86f8bb6c.auto_noCCseg.label_intensities.txt

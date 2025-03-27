@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/vm/X0/SHA256E-s1544--63d3cd87cf4a7f082c82c46ce235debe2f898e2e6f9933ab3f0bf3b81130127c.label_intensities.txt/SHA256E-s1544--63d3cd87cf4a7f082c82c46ce235debe2f898e2e6f9933ab3f0bf3b81130127c.label_intensities.txt

@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/qk/vm/SHA256E-s1544--fdb3384fe3db345e44458778f729a9b95fe21d256285284e165c79a34aa72908.auto_noCCseg.label_intensities.txt/SHA256E-s1544--fdb3384fe3db345e44458778f729a9b95fe21d256285284e165c79a34aa72908.auto_noCCseg.label_intensities.txt

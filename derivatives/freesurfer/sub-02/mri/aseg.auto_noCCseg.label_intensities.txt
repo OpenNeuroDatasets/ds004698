@@ -1,1 +1,0 @@
-../../../../.git/annex/objects/wW/q8/SHA256E-s1544--5c9014f47bd1527b9bfea20901e5fec7fd1029230168e21a621f26fcc93c0f36.auto_noCCseg.label_intensities.txt/SHA256E-s1544--5c9014f47bd1527b9bfea20901e5fec7fd1029230168e21a621f26fcc93c0f36.auto_noCCseg.label_intensities.txt
