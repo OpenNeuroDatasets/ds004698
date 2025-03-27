@@ -1,1 +1,1 @@
-../../../../.git/annex/objects/pM/MZ/SHA256E-s1543--1b8fb87f6fbdb2e55d0cab730f5c1b63ad0cb0a88d456b99dc5781c45640bf22.txt/SHA256E-s1543--1b8fb87f6fbdb2e55d0cab730f5c1b63ad0cb0a88d456b99dc5781c45640bf22.txt
+../../../../.git/annex/objects/pK/K0/SHA256E-s1543--1b8fb87f6fbdb2e55d0cab730f5c1b63ad0cb0a88d456b99dc5781c45640bf22.auto_noCCseg.label_intensities.txt/SHA256E-s1543--1b8fb87f6fbdb2e55d0cab730f5c1b63ad0cb0a88d456b99dc5781c45640bf22.auto_noCCseg.label_intensities.txt
