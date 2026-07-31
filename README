@@ -1,8 +1,12 @@
 # Center for Human Neuroscience (CHN) Retinotopic Mapping Dataset
 
-The Center for Human Neuroscience (CHN) Retinotopic Mapping Dataset collected at the University of Washington is part of "Improving the reliability and accuracy of population receptive field measures using a 'log-bar' stimulus" by Kelly Chang, Ione Fine, and Geoffrey M. Boynton.
+The Center for Human Neuroscience (CHN) Retinotopic Mapping Dataset was collected at the University of Washington as part of "Improving the reliability and accuracy of population receptive field measures using a 'log-bar' stimulus" by Kelly Chang, Ione Fine, and Geoffrey M. Boynton.
 
 The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF estimated data from 12 participants across 2 sessions.
+
+## Citations
+
+Chang, K., Fine, I., & Boynton, G. M. (2025). Improving the reliability and accuracy of population receptive field measures using a logarithmically warped stimulus. *Journal of Vision*, *25*(1), 5. [https://doi.org/10.1167/jov.25.1.5](https://doi.org/10.1167/jov.25.1.5)
 
 ## Dataset Organization
 
@@ -10,7 +14,7 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
    This directory contains the raw, unprocessed data for each participant. 
 
 - `dataset/derivatives/fmriprep`  
-   This directory contains the fMRIPrep processed data for each particpant. 
+   This directory contains the fMRIPrep processed data for each participant. 
 
 - `dataset/derivatives/freesurfer`  
    This directory contains the standard FreeSurfer processed data for each participant. 
@@ -23,15 +27,15 @@ The full dataset is comprised of the raw, preprocessed (with fMRIPrep), and pRF 
 
    - `angle_lut.json`: Custom polar angle lookup table for visualization with FreeSurfer's `freeview`.
    - `eccen_lut.json`: Custom eccentricity lookup table for visualization with FreeSurfer's `freeview`.
-   - `participants_hrf_paramters.json`: Corresponding metadata for `participants_hrf_paramters.tsv`.
-   - `participants_hrf_paramters.tsv`: Estimated HRF parameters used during pRF estimation by participant and hemisphere. 
+   - `participants_hrf_parameters.json`: Corresponding metadata for `participants_hrf_parameters.tsv`.
+   - `participants_hrf_parameters.tsv`: Estimated HRF parameters used during pRF estimation by participant and hemisphere. 
 
 - `dataset/derivatives/prf-estimation/stimuli`  
    This directory contains the stimuli used in the experiment and stimulus apertures used in pRF estimation.
 
    - `task-(fixed|log)bar_run-(1|2|3)`: Name of the stimulus condition and run number.
    - `*_desc-full_stim.mat`: Stimulus images (uint8) at `full` resolution of 540 by 540 pixels and 6 Hz.
-   - `*_desc-down_aperture.mat`: Stimulus aperature (binary) where 1s indicated stimulus and 0s indicated the background at a downsampled (`down`) resolution of 108 by 108 pixels and 1 Hz.  
+   - `*_desc-down_aperture.mat`: Stimulus aperture (binary) where 1s indicated stimulus and 0s indicated the background at a downsampled (`down`) resolution of 108 by 108 pixels and 1 Hz.  
 
 - `dataset/derivatives/prf-estimation/sub-(n)/anat`  
    This directory contains the participant's surface (inflated and sphere) and curvature files for visualization using FreeSurfer's `freeview`.
