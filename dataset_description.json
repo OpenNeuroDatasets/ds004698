@@ -1,7 +1,6 @@
 {
     "Name": "CHN Retinotopic Mapping Dataset",
     "BIDSVersion": "1.10.0",
-    "HEDVersion": "",
     "DatasetType": "raw",
     "License": "CC0",
     "Authors": [
