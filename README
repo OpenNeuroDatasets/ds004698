@@ -13,6 +13,13 @@ Chang, K., Fine, I., & Boynton, G. M. (2025). Improving the reliability and accu
 - `dataset`  
    This directory contains the raw, unprocessed data for each participant. 
 
+- `dataset/code`  
+   This directory contains tutorial scripts in MATLAB and Python to generate log distorted images from a directory of input images.
+
+   - `create_distorted_images.[m,ipynb]`: Tutorial script that generates log-distorted images when given an image input directory.
+   - `fixed-bar`: Sample image input directory.
+   - `log-bar`: Sample image output directory.
+
 - `dataset/derivatives/fmriprep`  
    This directory contains the fMRIPrep processed data for each participant. 
 
@@ -70,10 +77,3 @@ Chang, K., Fine, I., & Boynton, G. M. (2025). Improving the reliability and accu
   - `*_hV4.label`: hV4 ROI files. 
   - `*_LOC.label`: Lateral-Occipital Complex (LOC) ROI files. 
   - `*_TOC.label`: Temporal-Occipital Complex (TOC) ROI files. 
-
-- `dataset/tutorials`  
-   This directory contains tutorial scripts in MATLAB and Python to generate log distorted images from a directory of input images.
-
-   - `create_distorted_images.[m,ipynb]`: Tutorial script that generates log-distorted images when given an image input directory.
-   - `fixed-bar`: Sample image input directory.
-   - `log-bar`: Sample image output directory.
