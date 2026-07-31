@@ -1,3 +1,7 @@
+3.0.1 2026-07-31
+  - Update README with citation and fixed typos
+  - Renamed tutorial/ to code/ for BIDS
+  - Edit dataset_description.json for BIDS
 3.0.0 2025-04-04
   - Updated metadata to reflect update to BIDS
   - Updated pRF estimates to fix incomplete uploads for Version 2.x.x
